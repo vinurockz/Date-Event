@@ -1,0 +1,24 @@
+<div class="container clrcon">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 pos">
+            <strong><h4>Add date events</h4></strong>
+            <form [formGroup]="Events" (ngSubmit)="Eventsfun()">
+                <input type="text" id="txt" placeholder="user id" name="uid" formControlName="uid">
+                <br>
+              <input type="text" id="txt" placeholder="Date" name="date" formControlName="date">
+                <br>
+               <input type="text" id="txt" placeholder="Date of Event" name="events" formControlName="events">
+                <br>
+                <input type="submit" value="Create" class="btn btn-primary">
+                <input type="submit" value="Display Events" class="btn btn-primary" (click)="display()">
+            </form>
+          
+            
+        </div>
+        
+        <div class="col-4">
+          
+        </div>
+    </div>
+</div>

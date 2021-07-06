@@ -1,0 +1,16 @@
+.l{
+    width: 2px;
+    height:200px ;
+    background-color: #f9d276;
+    position: absolute;
+    top: 350px;
+    left:455px;
+}
+.l1{
+    width: 200px;
+    height: 2px;
+    background-color: #f9d276;
+    position:absolute;
+    top: 458px;
+    left: 410px;
+}

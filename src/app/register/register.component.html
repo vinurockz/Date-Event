@@ -1,0 +1,27 @@
+<div class="container clrcon">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 pos">
+            <strong><h4>Registration</h4></strong>
+            <form [formGroup]="regis" (ngSubmit)="register()">
+                <input type="text" id="txt" placeholder="UserName" name="usrname" formControlName="usrname">
+                <br>
+              <input type="text" id="txt"  placeholder="UserId" name="usrid" formControlName="usrid">
+                <br>
+               <input type="password" id="txt" placeholder="Password" name="pswd" formControlName="pswd">
+                <br>
+                <input type="submit" value="SignUp" class="btn btn-success " >
+            </form>
+          
+            
+        </div>
+        
+        <div class="col-4"></div>
+    </div>
+</div>
+
+
+<div class="l"></div>
+<div class="l1"></div>
+<div class="l2"></div>
+<div class="l3"></div>
